@@ -1,0 +1,8 @@
+# Dependencies for main.py
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+firebase-admin>=6.0
+# main.py imports google.auth directly in its credential fallback path.
+google-auth>=2.0
+pyotp>=2.9
+python-dotenv>=1.0
